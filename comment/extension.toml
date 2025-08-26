@@ -1,0 +1,10 @@
+id = "comment-dev"
+name = "Comment (dev)"
+version = "0.0.0"
+schema_version = 1
+authors = ["oz-hg <oz@mercury.com>"]
+repository = "https://github.com/oz-hg/zed-extensions/"
+
+[grammars.comment]
+repository = "https://github.com/stsewd/tree-sitter-comment"
+commit = "689be73775bd2dd57b938b8e12bf50fec35a6ca3"

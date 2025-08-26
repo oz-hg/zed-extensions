@@ -1,0 +1,14 @@
+name = "Haskell Persistent"
+grammar = "haskell_persistent"
+path_suffixes = ["persistentmodels"]
+# autoclose_before = ",=)}]"
+# line_comments = ["-- "]
+# block_comment = ["{- ", " -}"]
+# brackets = [
+#     { start = "{", end = "}", close = true, newline = true },
+#     { start = "[", end = "]", close = true, newline = true },
+#     { start = "(", end = ")", close = true, newline = true },
+#     { start = "\"", end = "\"", close = true, newline = false },
+#     { start = "'", end = "'", close = true, newline = false },
+#     { start = "`", end = "`", close = true, newline = false },
+# ]

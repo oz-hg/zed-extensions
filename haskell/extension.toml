@@ -1,0 +1,28 @@
+id = "haskell-dev"
+name = "Haskell (dev)"
+version = "0.0.0"
+schema_version = 1
+authors = [
+    "oz-hg <oz@mercury.com>",
+
+    # original authors
+    "Pocæus <github@pocaeus.com>",
+    "Lei <45155667+leifu1128@users.noreply.github.com>",
+]
+repository = "https://github.com/oz-hg/zed-extensions/"
+
+[language_servers.hls]
+name = "Haskell Language Server"
+languages = ["Haskell", "Cabal", "Haskell Persistent"]
+
+[grammars.haskell]
+repository = "https://github.com/tree-sitter/tree-sitter-haskell"
+commit = "0975ef72fc3c47b530309ca93937d7d143523628"
+
+[grammars.haskell_persistent]
+repository = "https://github.com/MercuryTechnologies/tree-sitter-haskell-persistent"
+commit = "577259b4068b2c281c9ebf94c109bd50a74d5857"
+
+[grammars.cabal]
+repository = "https://gitlab.com/zweimach/tree-sitter-cabal/"
+commit = "6f00f6d4883eb2eb650eea7cc1e95bd25e48419c"
